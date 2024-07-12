@@ -16,7 +16,6 @@ import React from 'react';
 function App() {
   return (
     <div>
-      <React.StrictMode>
       <BrowserRouter>
       <Navbar/> 
       <Routes basename="/tothepoint_login">
@@ -33,7 +32,6 @@ function App() {
       </Routes>
       <Footer />
       </BrowserRouter>
-      </React.StrictMode>
     </div>
   );
 }
