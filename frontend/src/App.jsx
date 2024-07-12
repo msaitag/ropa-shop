@@ -16,9 +16,9 @@ import React from 'react';
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/tothepoint_login">
       <Navbar/> 
-      <Routes basename="/tothepoint_login">
+      <Routes>
         <Route path='/' element={<Shop />} />
         <Route path='/mens' element={<ShopCategory banner={men_banner} category="men" />} />
         <Route path='/womens' element={<ShopCategory banner={women_banner} category="women" />} />
