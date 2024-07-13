@@ -4,6 +4,7 @@ import footer_logo from '../Assests/logo_big.png'
 import instagram_icon from '../Assests/instagram_icon.png'
 import pinterest_icon from '../Assests/pintester_icon.png'
 import whatsapp_icon from '../Assests/whatsapp_icon.png'
+import heart_icon from '../Assests/heart-icon.svg'
 
 const Footer = () => {
   return (
